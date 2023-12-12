@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Omni Food</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    /* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+} */
+
+/* Header style */
+
+header {
+    background-color: #FDF2E9;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 5%;
+    height: 100px;
+}
+
+img.logo {
+    width: 30%;
+    height: auto;
+}
+
+.main-nav-list {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.main-nav-list li {
+    list-style: none;
+}
+
+li a:link {
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+
+}
+
+.btn-try {
+    background-color: #E67E22;
+    padding: 10px 40px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    color: white;
+}
+
+/* Hero Section */
+
+.section-hero {
+    background-color: #FDF2E9;
+    padding: 5% 0% 5% 0%;
+}
+
+.hero {
+    max-width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 30px;
+}
+
+.heading-primary {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 600;
+    color: #333333;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.hero-description {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #333333;
+    margin-bottom: 50px;
+}
+
+.btn-1 {
+    background-color: #E67E22;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    margin-right: 20px;
+    transition: all 0.3s;
+    display: inline-block;
+}
+
+.btn-2 {
+    background-color: white;
+    padding: 12px 20px;
+    color: #333333;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    transition: all 0.3s;
+    display: inline-block;
+}
+
+/* misbah custom css work  */
+.two-button-hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 29px;
+
+}
+
+.delivered-meals {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.delivered-imgs img {
+    width: 10%;
+    border-radius: 50%;
+    border: 5px solid #FDF2E9;
+    margin-left: -5%;
+}
+
+.delivered-imgs {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.delivered-text {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.delivered-text span {
+    color: #E67E22;
+    font-weight: 800;
+}
+
+.hero-img {
+    width: 100%;
+    height: auto;
+}
+
+.btn-1:hover {
+    background-color: #cf711f;
+    color: white;
+}
+
+.btn-2:hover {
+    color: white;
+    background-color: #E67E22;
+    border: none;
+    transition: 0.5s;
+}
+
+/* END HERO SECTION */
+
+.feature-haed {
+    text-align: center;
+    color: #78767691;
+}
+
+.feature-in {
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.feature-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.feature-logo img {
+    height: 35px;
+    margin-right: 20px;
+    filter: brightness(0);
+    opacity: 0.5;
+}
+
+.contanier {
+    padding: 5%;
+}
+
+/* SECTION THREE CSS WORK */
+.how-it-work {
+    padding-left: 1%;
+    margin: 0% 10% 0% 10%;
+    margin-bottom: 50px;
+}
+
+.heading h2 {
+    font-size: 25px;
+    font-family: 400;
+    line-height: 30px;
+
+}
+
+.work-1 {
+    color: #E67E22;
+    margin-bottom: 25px;
+
+}
+
+.work-2 {
+    font-size: 40px;
+}
+
+
+
+/* 
+SECTION FOUR START FORM HERE */
+.grid-col-1 {
+    width: 95%;
+    margin: auto;
+    padding: 3% 0% 3% 0%;
+}
+
+
+.step-img-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.moblie-row {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 40px;
+}
+
+.step-img-box::before {
+    width: 60%;
+    padding-bottom: 60%;
+    background-color: #fdf2e9;
+    z-index: -2;
+}
+
+.step-img-box::after {
+    width: 45%;
+    padding-bottom: 45%;
+    background-color: #fae5d3;
+    z-index: -1;
+}
+
+.step-img-box::before,
+.step-img-box::after {
+    content: "";
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.moblie-row {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 40px;
+}
+
+.sub-heading {
+    color: #4745453c;
+    font-size: 80px;
+}
+
+.main-heading {
+    font-size: 30px;
+    margin-bottom: 30px;
+
+}
+
+.moblie-4 {
+    font-size: 18px;
+    line-height: 25px;
+
+}
+
+.moblie-5 {
+    width: 35%;
+}
+
+.moblie-img-box {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+
+/* --------------- */
+
+.moblie-row-2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 40px;
+}
+
+.grid-col-2 {
+    padding: 5% 0% 5% 0%;
+    margin: auto;
+    width: 95%;
+}
+
+.sub-heading-2 {
+    color: #4947474a;
+    margin-bottom: 20px;
+    font-size: 80px;
+}
+
+.main-heading-2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.moblie-2 {
+
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.moblie-img-box-2 {
+    display: flex;
+    justify-content: left;
+}
+
+.step-img-box::before,
+.step-img-box::after {
+    content: "";
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.moblie-2 {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+
+/* ------------------- */
+
+.moblie-row-3 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 40px;
+
+}
+
+.grid-col-3 {
+    padding: 5% 0% 5% 0%;
+    margin: auto;
+    width: 95%;
+}
+
+.sub-heading-3 {
+    color: #4947474a;
+    margin-bottom: 20px;
+    font-size: 80px;
+}
+
+.main-heading-3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.moblie-3 {
+    font-size: 18px;
+    line-height: 25px;
+
+}
+
+.moblie-7 {
+    width: 35%;
+}
+
+.moblie-img-box-3 {
+    display: flex;
+    justify-content: right;
+}
+
+
+/* SECTION FIVE START FORM HERE */
+
+.choose-meal {
+ text-align: center;
+ margin-top: 50px;
+}
+
+.choose-meal h1 {
+    font-size: 20px;   
+    color: #cf711f;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.choose-meal h2 {
+    font-size: 33px;
+    color: #0c0c0c;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-bottom: 70px
+
+}
+
+
+/* CARD CSS WORL START header */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  
+}
+
+.container {
+  width: 100%;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.card {
+  width: 300px;
+  height: 420px;
+  border-radius: 5px;
+  margin:10px 20px;
+  background-color: #FDF2E9;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.card > *:not(img) {
+  padding: 5px 10px;
+}
+
+.card img {
+  width: 90%;
+  height: 180px;
+  position: relative;
+  margin:-50px 5% 0 5%;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  margin-bottom: 20px;
+}
+
+.card-body {
+  padding: 5px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.card-body p {
+  color: #3d3d3d;
+  margin-bottom: 20px;
+  font-size: 14px;
+  
+}
+
+.view-btn a {
+  padding: 5px 15px;
+  border: 1.5px solid #ff00d9;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #007bff;
+}
+.view-btn a:hover{
+    color: #fff;
+    background-color: #CF711F;
+}
+.btn-group {
+  display: flex;
+}
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-color: #E67E22;
+  /* background-image: radial-gradient(100% 100% at 100% 0, rgb(#E67E22 0, #E67E22); */
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+  width: 100%;
+}
+
+.button-29:focus {
+  box-shadow: #8c7a7a 0 0 0 1.5px inset, rgba(126, 118, 106, 0.4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(95, 91, 103, 0.4) 0 4px 8px, rgba(114, 110, 125, 0.3) 0 7px 13px -3px, #171718 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #7c7e88 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.credit a {
+    text-decoration: none;
+    color: #555555;
+    font-weight: 800;
+  }
+  
+  .credit {
+      color: #555555;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Verdana,Geneva,Tahoma,sans-serif;
+  }
+
+</style>
+
+</head>
+
+<body>
+    <header>
+        <a href="">
+            <img src="./img/omnifood-logo.png" alt="Omni Food" class="logo">
+        </a>
+        <nav class="main-nav">
+            <ul class="main-nav-list">
+                <li><a href="#">How it works</a></li>
+                <li><a href="#">Meals</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li class="btn-try"><a class="#">Try for free</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main">
+        <!-- Section Hero -->
+
+        <section class="section-hero">
+            <div class="hero">
+                <div class="hero-text-box">
+                    <h2 class="heading-primary">
+                        A healthy meal delivered to your door, every single day
+                    </h2>
+                    <p class="hero-description">
+                        The smart 365-days-per-year food subscription that will make you eat healthy again. Tailored
+                        to your personal tastes and nutritional needs. We have delivered 250,000+ meals last year!
+                    </p>
+                    <div  class="two-button-hero">
+                    <a href="#" class="btn-1">Start eating well</a>
+                    <a href="#" class="btn-2">Learn more ↓</a>
+                    </div>
+
+                    <div class="delivered-meals">
+                        <div class="delivered-imgs">
+                            <img src="./img/customers/customer-1.jpg" alt="customer-1">
+                            <img src="./img/customers/customer-2.jpg" alt="customer-2">
+                            <img src="./img/customers/customer-3.jpg" alt="customer-3">
+                            <img src="./img/customers/customer-4.jpg" alt="customer-4">
+                            <img src="./img/customers/customer-5.jpg" alt="customer-5">
+                            <div class="delivered-text">
+                                <p class="delivered-text">
+                                    <span>250,000+</span> meals delivered last year!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-img-box">
+                    <img src="./img/hero.png" alt="hero-img" class="hero-img">
+                </div>
+            </div>
+        </section>
+<!-- SECTION TWO START FORM HERE -->
+
+        <section class="feature-in">
+            <div class="contanier">
+                <h2 class="feature-haed">AS FEATURED IN</h2>
+                <div class="feature-logo">
+                    <img src="https://omnifood.dev/img/logos/techcrunch.png">
+                    <img src="https://omnifood.dev/img/logos/business-insider.png">
+                    <img src="https://omnifood.dev/img/logos/the-new-york-times.png">
+                    <img src="https://omnifood.dev/img/logos/forbes.png">
+                    <img src="https://omnifood.dev/img/logos/usa-today.png">
+
+                </div>
+            </div>
+        </section>
+
+<!-- SECTION START FORM HERE -->
+        <section class=" how-it-work">
+            <div class="heading">
+                <h3 class="work-1">HOW IT WORKS</h3>
+                <h2 class="work-2">Your daily dose of health in 3 simple steps</h2>
+
+            </div>
+        </section>
+
+        <!-- SECTION FOUR START FORM HERE -->
+
+       <!---picture 1-->
+        <section class="grid-col-1">
+            <div class="moblie-row">
+                <div class="moblie-text-box">
+                    <h3 class="sub-heading">01</h3>
+                    <h2 class="main-heading">Tell us what you like (and what not)</h2>
+
+                    <p class="moblie-4">Never again waste time thinking about what to eat! Omnifood AI will create a
+                        100%
+                        personalized weekly meal plan just for you. It makes sure you get all the nutrients and vitamins
+                        you
+                        need, no matter what diet you follow!</p>
+                </div>
+                <div class="step-img-box">
+                    <img class="moblie-5" src="https://omnifood.dev/img/app/app-screen-1.png" width="220px" height="400px">
+                </div>
+            </div>
+        </section>
+      
+        <!----picture 2-->
+        <section class="grid-col-2">
+            <div class="moblie-row-2">
+                <div class="step-img-box">
+                    <img class="moblie-2" src="https://omnifood.dev/img/app/app-screen-1.png" width="220px" height="400px">
+                </div>
+
+                <div class="moblie-text-box-2">
+                    <h3 class="sub-heading-2">02</h3>
+                    <h2 class="main-heading-2">Tell us what you like (and what not)</h2>
+
+                    <p class="moblie-2">Never again waste time thinking about what to eat! Omnifood AI will create a
+                        100%
+                        personalized weekly meal plan just for you. It makes sure you get all the nutrients and vitamins
+                        you
+                        need, no matter what diet you follow!</p>
+                </div>
+               
+            </div>
+        </section>
+
+       <!---picture 3--->
+        <section>
+            <div class="grid-col-3">
+                <div class="moblie-row-3">
+                    <div class="moblie-te xt-box-3">
+                        <h3 class="sub-heading-3">03</h3>
+                        <h2 class="main-heading-3">Receive meals at convenient time></h2>
+                        <p class="moblie-3">Best chefs in town will cook your selected meal every day, and we will
+                            deliver it to your door whenever works best for you. You can change delivery schedule and
+                            address daily!></p>
+                    </div>
+
+                    <div class="step-img-box">
+                        <img class="mobile-7 " src="https://omnifood.dev/img/app/app-screen-3.png" width="220px" height="400px">
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+ <!-- SECTION FIVE START FORM HERE -->
+
+        <section class="">
+            <div class=" choose-meal">
+                <h1 class="meal">MEALS</h1>
+                <h2>Omnifood AI chooses from 5,000+ recipes</h2>
+                </div>
+
+        <!-- CARD CSS WORK START  -->
+        <div class="container">
+            <div class="card">
+              <img src="./img/gallery/gallery-3.jpg" alt="" />
+              <div class="card-body">
+                <div class="row">
+                  <div class="card-title">
+                    <h4>1 meal per day</h4>
+                    <h4>Order from 11am to 9pm</h4>
+                    <h4>Delivery is free</h4>
+                    <h4>1 meal per day</h4>
+                    <h3>$120</h3>
+                  </div>
+                  <div class="view-btn">
+                    <!-- <a href="">View Details</a> -->
+                  </div>
+                </div>
+                <hr />
+                <p>
+                  per month. That's just $13 per meal!
+                </p>
+                <div class="btn-group">
+          <button class="button-29" role="button">Start eating well</button>
+                </div>
+              </div>
+            </div>
+          
+            <div class="card">
+              <img src="./img/gallery/gallery-1.jpg" alt="" />
+              <div class="card-body">
+                <div class="row">
+                  <div class="card-title">
+                    <h4>2 meals per day</h4>
+                    <h4>Order 24/7</h4>
+                    <h4>Delivery is free</h4>
+                    <h4>2 meals per day</h4>
+                    
+                    
+                    <h3>$120</h3>
+                  </div>
+                  <div class="view-btn">
+                      <!-- <h1>150$</h1> -->
+                    <!-- <a href="">View Details</a> -->
+                  </div>
+                </div>
+                <hr />
+                <p>
+                  per month. That's just $11 per meal!
+                </p>
+                <div class="btn-group">
+          <button class="button-29" role="button">Start eating well</button>
+                </div>
+              </div>
+            </div>
+          </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
